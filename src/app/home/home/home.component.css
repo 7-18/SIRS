@@ -1,0 +1,212 @@
+h1.display-1 {
+  font: bold 3.5vw Roboto;
+  color: #ffffffda;
+}
+
+p.carousel-paragraph {
+  font: 300 1.5vw Roboto;
+  color: #ffffffda;
+}
+
+/* .carousel .carousel-item .carousel-caption {
+  width: 57%;
+  height: 570px;
+  left: 175px;
+} */
+
+.carousel-item img {
+  min-height: 32vh;
+}
+
+h5 {
+  letter-spacing: 2px;
+}
+
+.carousel-item .carousel-container {
+  position: absolute;
+  left: 39%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.carousel-inner > .carousel-item > img {
+  height: 91.5vh;
+}
+
+button {
+  color: #ffffffda;
+  font: 18px/20px Roboto;
+}
+
+button.btn-2 {
+  background-color: #ff5100;
+  border-radius: 5px;
+  border-color: transparent;
+}
+
+button.btn-2:hover {
+  background-color: #ff5100d3;
+}
+
+button.btn-2:focus,
+button.btn-1:focus {
+  outline: none !important;
+}
+
+button.btn-1 {
+  background-color: transparent;
+  border-radius: 5px;
+  border: 3px solid #ffffff;
+}
+
+button.btn-1:hover {
+  background-color: rgba(255, 255, 255, 0.11);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #0d1319;
+  background-size: 50%;
+  height: 3rem;
+  width: 3rem;
+}
+
+#carouselSugarCane .carousel-indicators li {
+  border: 5px solid #fff;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin-left: 10px;
+  background-color: #0d1319;
+}
+
+#carouselSugarCane .carousel-indicators .active {
+  background-color: #ff5100;
+  max-width: 10px;
+  height: 10px;
+}
+
+.display-2::after {
+  content: "";
+  border-bottom: 10px solid #ff5100;
+  border-radius: 10%;
+  height: 3px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  width: 100px;
+}
+.carousel .slide .container {
+  margin: 0 auto;
+}
+#carouselSugarProducts .carousel-indicators li {
+  border: 5px solid #fff;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin-left: 10px;
+  background-color: #0d1319;
+}
+
+#carouselSugarProducts .carousel-indicators .active {
+  background-color: #ff5100;
+  max-width: 10px;
+  height: 10px;
+}
+
+.card {
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.23), 0 2px 2px rgba(0, 0, 0, 0.23);
+  border-radius: 15px;
+}
+
+.section-three {
+  padding-bottom: 100px;
+}
+
+div.section-four-img {
+  min-height: 45vh;
+  background-image: url("../../../assets/images/Grupo 1590.png");
+  background-size: cover;
+}
+
+.img-card {
+  height: 103%;
+  margin-left: 0px;
+  margin-top: -2px;
+}
+
+small {
+  color: #ff5100;
+}
+
+img.img-last-cards {
+  margin-top: -25px;
+}
+
+.category {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  color: #fff;
+  font-size: 10px;
+  width: 80px;
+  padding: 5px;
+  text-align: center;
+  background-color: #ff5100;
+  border-radius: 10px;
+  z-index: 2;
+  font: 14px/25px Roboto;
+}
+
+.Subscription::after {
+  content: "";
+  border-bottom: 10px solid #ff5100;
+  border-radius: 10%;
+  height: 3px;
+  display: block;
+  margin: auto;
+  margin-left: 0;
+  margin-top: 20px;
+  width: 100px;
+}
+
+section:nth-child(6) {
+  color: #ffffff;
+  background-color: #233343;
+}
+
+input.form-control-one {
+  width: 25vw;
+  padding-left: 10px;
+  height: 5vh;
+}
+
+@media (max-width: 600px) {
+  .img-subscribe {
+    width: 75%;
+  }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    display: none;
+  }
+  .carousel-inner .carousel-item > img {
+    height: 50vh;
+  }
+  input.form-control-one {
+    width: 12rem;
+    padding-left: 10px;
+    height: 5vh;
+  }
+}
+
+@media (max-width: 1200px) {
+  .carousel-caption {
+    display: none;
+  }
+}
